@@ -1,9 +1,24 @@
-html, body{
+html,
+body {
     padding: 0;
     margin: 0;
     width: 100%;
     height: 100%;
 }
-.hi{
-    background: red;
+
+.top {
+    background: url(https://images.pexels.com/photos/1487031/pexels-photo-1487031.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.nav_back {
+    background-color: white;
+    box-shadow: black 2px 2px 2px 2px;
+}
+
+.products_list {
+    text-align: center;
 }
